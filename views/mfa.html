@@ -1,0 +1,9 @@
+<div id="mfa-container">
+  <form ng-submit="submitCode()">
+    <fieldset>
+      <input type="text" name="code" ng-model="code" ng-disabled="loading" />
+      <br>
+      <button type="submit" ng-disabled="loading">submit</button>
+    </fieldset>
+  </form>
+</div>
